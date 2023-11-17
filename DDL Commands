@@ -1,0 +1,9 @@
+//DDL Commands:
+
+CREATE TABLE Task (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    title VARCHAR(255) NOT NULL,
+    task TEXT,
+    due DATE,
+    completed BOOLEAN NOT NULL DEFAULT false
+);
